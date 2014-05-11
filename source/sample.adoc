@@ -1,0 +1,12 @@
+= Sample
+Author Name
+
+preamble
+
+== Section A
+
+content
+
+== Section B
+
+content
