@@ -1,14 +1,17 @@
-= Sample
+= AsciiDoc rendered by Asciidoctor
 Author Name
+:page-layout: layout
 
-preamble
+Learn more about Asciidoctor at http://asciidoctor.org.
 
-== Section A
+== Sample Content
 
-content
-
-== Section B
+Here's some syntax highlighted code:
 
 ```ruby
 puts "Hello, World!"
 ```
+
+Click the image below to learn more about Middleman.
+
+image::middleman.png[Middleman,link=http://middlemanapp.com]
