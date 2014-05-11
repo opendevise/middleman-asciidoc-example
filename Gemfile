@@ -10,3 +10,4 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw]
 
 # Activate support for AsciiDoc
 gem 'asciidoctor', '~> 0.1.4'
+gem 'coderay'

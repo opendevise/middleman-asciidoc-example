@@ -9,4 +9,6 @@ content
 
 == Section B
 
-content
+```ruby
+puts "Hello, World!"
+```

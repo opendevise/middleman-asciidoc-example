@@ -32,6 +32,8 @@
 # Helpers
 ###
 
+set :asciidoc_attributes, %w(source-highlighter=coderay coderay-css=style)
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
