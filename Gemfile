@@ -9,5 +9,5 @@ gem 'wdm', '~> 0.1.0', :platforms => [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw]
 
 # Activate support for AsciiDoc
-gem 'asciidoctor', '~> 0.1.4'
+gem 'asciidoctor', '1.5.0'
 gem 'coderay'
