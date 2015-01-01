@@ -1,0 +1,18 @@
+= AsciiDoc rendered by Asciidoctor
+Author Name
+:page-layout: asciidoctor
+
+This page uses the default Asciidoctor stylesheet and Font Awesome icons.
+Learn more about Asciidoctor at http://asciidoctor.org.
+
+== Sample Content
+
+Here's some syntax highlighted code:
+
+```ruby
+puts "Hello, World!"
+```
+
+TIP: Click the image below to learn more about Middleman.
+
+image::middleman.png[Middleman,link=http://middlemanapp.com]
