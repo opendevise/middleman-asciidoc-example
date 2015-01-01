@@ -1,3 +1,23 @@
+=begin
+# Use this extension to alter the base_dir value passed to Asciidoctor
+class AsciidoctorTweaks < Middleman::Extension
+  def initialize app, options_hash = {}, &block
+    super
+    app.before do
+      app.config[:asciidoc][:base_dir] = 'source/docs'
+      true
+    end
+  end
+end
+
+::Middleman::Extensions.register :asciidoctor_tweaks, AsciidoctorTweaks
+
+activate :asciidoctor_tweaks
+=end
+
+# Reload the browser automatically whenever files change
+#activate :livereload
+
 ###
 # Compass
 ###
@@ -32,7 +52,7 @@
 # Helpers
 ###
 
-set :asciidoc_attributes, %w(source-highlighter=coderay coderay-css=style)
+set :asciidoc_attributes, %w(icons=font source-highlighter=coderay coderay-css=style)
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
@@ -54,6 +74,11 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+Slim::Engine.set_default_options \
+  pretty: true,
+  sort_attrs: false,
+  disable_escape: true
 
 # Build-specific configuration
 configure :build do
