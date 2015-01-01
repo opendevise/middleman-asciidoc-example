@@ -1,5 +1,8 @@
 = Middleman AsciiDoc Example
 
-This repository hosts an example Middleman site that uses the AsciiDoc markup language for content files.
+This repository hosts an example Middleman 3 site that uses the AsciiDoc markup language for content files processed by Asciidoctor.
 
 You can find instructions for how this example was created in the following Gist: https://gist.github.com/mojavelinux/8874879.
+
+Several additional changes have also been made.
+Consult the https://github.com/opendevise/middleman-asciidoc-example/commits/master[git history] for details.
