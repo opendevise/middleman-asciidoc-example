@@ -1,11 +1,15 @@
-= AsciiDoc rendered by Asciidoctor
+= AsciiDoc Sample
 Author Name
-:page-layout: asciidoctor
+:page-layout: asciidoc
 
+[.lead]
+The content of this page was converted from AsciiDoc.
 This page uses the default Asciidoctor stylesheet and Font Awesome icons.
 Learn more about Asciidoctor at http://asciidoctor.org.
 
 == Sample Content
+
+Asciidoctor is running in the following environment: {env}.
 
 Here's some syntax highlighted code:
 

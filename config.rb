@@ -52,6 +52,11 @@ activate :asciidoctor_tweaks
 # Helpers
 ###
 
+set :asciidoc, {
+  safe: :safe,
+  template_dir: 'source/_templates',
+  attributes: %W(showtitle env=middleman env-middleman middleman-version=#{Middleman::VERSION})
+}
 set :asciidoc_attributes, %w(icons=font source-highlighter=coderay coderay-css=style)
 
 # Automatic image dimensions on image_tag helper
@@ -75,10 +80,7 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
-Slim::Engine.set_default_options \
-  pretty: true,
-  sort_attrs: false,
-  disable_escape: true
+set :slim, { pretty: true, sort_attrs: false, disable_escape: true }
 
 # Build-specific configuration
 configure :build do
