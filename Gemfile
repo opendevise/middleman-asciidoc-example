@@ -7,6 +7,8 @@ gem 'slim', '~> 4.1.0', require: false
 
 # Activate support for AsciiDoc
 gem 'middleman-asciidoc', '~> 1.0'
+# or use the next dependency instead to run the unreleased code
+#gem 'middleman-asciidoc', github: 'middleman/middleman-asciidoc'
 gem 'asciidoctor', '~> 2.0'
 gem 'coderay'
 
