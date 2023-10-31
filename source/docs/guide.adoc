@@ -1,4 +1,4 @@
 = Guide
+:!page-layout:
 
-// since the :base_dir option is set to the source directory, top-level includes must be relative to that location
-include::docs/_includes/content.adoc[]
+include::_includes/content.adoc[]
